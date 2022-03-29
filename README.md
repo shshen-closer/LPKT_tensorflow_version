@@ -60,3 +60,5 @@ Test the trained the model on the test set:
 ## Correction
 
 There is a mistake in the KDD conference paper. Figure. 4 should be results on dataset ASSIST2012
+
+The experimental results would be better than our original paper, as we have optimized the data proprocessing
