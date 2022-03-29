@@ -54,7 +54,7 @@ For example:
 
 Test the trained the model on the test set:
 
-`python test.py`
+`python test.py {model_name}`
 
 
 ## Correction
