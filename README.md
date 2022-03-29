@@ -25,7 +25,7 @@ series = {KDD '21}
 ## Dependencies:
 
 - python >= 3.7
-- tesorflow >= 2.0 
+- tesorflow-gpu >= 2.0 
 - numpy
 - tqdm
 - utils
