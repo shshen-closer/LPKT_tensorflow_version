@@ -123,12 +123,12 @@ def test():
             leng = []
             while(index+FLAGS.batch_size <= data_size):
                 input_problem_b = np.zeros((FLAGS.batch_size, max_num_steps))
-                input_kc_b = np.ones((FLAGS.batch_size, max_num_steps, max_num_skills)) * 0.05
+                input_kc_b = np.ones((FLAGS.batch_size, max_num_steps, max_num_skills)) * 0.03
                 input_at_b = np.zeros((FLAGS.batch_size, max_num_steps))
                 input_it_b = np.zeros((FLAGS.batch_size, max_num_steps))
                 x_answer_b = np.zeros((FLAGS.batch_size, max_num_steps))
                 target_id_b = np.zeros((FLAGS.batch_size, max_num_steps))
-                target_kc_b = np.ones((FLAGS.batch_size, max_num_steps, max_num_skills)) * 0.05
+                target_kc_b = np.ones((FLAGS.batch_size, max_num_steps, max_num_skills)) * 0.03
                 target_correctness_b = []
                 target_index_b = []
                 for i in range(FLAGS.batch_size):
