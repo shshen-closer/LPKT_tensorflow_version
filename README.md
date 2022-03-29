@@ -24,7 +24,7 @@ series = {KDD '21}
 
 ## Dependencies:
 
-- python 3.6
+- python >= 3.7
 - tesorflow >= 2.0 
 - numpy
 - tqdm
@@ -50,8 +50,13 @@ Train the model:
 
 For example:
 
-`python train_lpkt.py 1`  or `python train_lpkt.py cpu 2`
+`python train_lpkt.py 1`  or `python train_lpkt.py 2`
 
 Test the trained the model on the test set:
 
 `python test.py`
+
+
+## Correction
+
+There is a mistake in the KDD conference paper. Figure. 4 should be results on dataset ASSIST2012
