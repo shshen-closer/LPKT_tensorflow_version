@@ -2,10 +2,10 @@
 
 Source code and data set for the paper Learning Process-consistent Knowledge Tracing.
 
-The code is the implementation of LPKT model, and the data set is the public data set ASSIST2012-2013.
+The code is the implementation of LPKT model, and the data set is the public data set [ASSIST2012-2013](https://sites.google.com/site/assistmentsdata/home/2012-13-school-data-withaffect).
 
 If this code helps with your studies, please kindly cite the following publication:
-
+```
 @inproceedings{10.1145/3447548.3467237,
 author = {Shen, Shuanghong and Liu, Qi and Chen, Enhong and Huang, Zhenya and Huang, Wei and Yin, Yu and Su, Yu and Wang, Shijin},
 title = {Learning Process-Consistent Knowledge Tracing},
@@ -20,3 +20,4 @@ numpages = {9},
 location = {Virtual Event, Singapore},
 series = {KDD '21}
 }
+```
