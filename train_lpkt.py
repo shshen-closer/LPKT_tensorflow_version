@@ -39,10 +39,10 @@ tf.compat.v1.flags.DEFINE_float("keep_prob", 0.2, "Keep probability for dropout"
 tf.compat.v1.flags.DEFINE_integer("hidden_size", 128, "The number of hidden nodes (Integer)")
 tf.compat.v1.flags.DEFINE_integer("evaluation_interval", 1, "Evaluate and print results every x epochs")
 tf.compat.v1.flags.DEFINE_integer("batch_size", 64 , "Batch size for training.")
-tf.compat.v1.flags.DEFINE_integer("epochs", 15, "Number of epochs to train for.")
+tf.compat.v1.flags.DEFINE_integer("epochs", 7, "Number of epochs to train for.")
 
 
-tf.compat.v1.flags.DEFINE_integer("decay_steps", 5, "how many steps before decay learning rate. (default: 500)")
+tf.compat.v1.flags.DEFINE_integer("decay_steps", 3, "how many steps before decay learning rate. (default: 500)")
 tf.compat.v1.flags.DEFINE_float("decay_rate", 0.3, "Rate of decay for learning rate. (default: 0.95)")
 tf.compat.v1.flags.DEFINE_integer("checkpoint_every", 1, "Save model after this many steps (default: 1000)")
 tf.compat.v1.flags.DEFINE_integer("num_checkpoints", 3, "Number of checkpoints to store (default: 50)")
